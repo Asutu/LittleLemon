@@ -3,6 +3,14 @@
 This is the Capstone project for the Little Lemon web application in the Meta Back-End Developer course.
 
 
+To run the tests:
+
+```bash
+python manage.py test restaurant.tests.test_models
+python manage.py test restaurant.tests.test_views
+```
+
+
 To connect to the MySQL database, these credentials are set in the `settings.py` file:
 
 - `'NAME': 'LittleLemon'` : this is the database name where to write the tables from this Django project
